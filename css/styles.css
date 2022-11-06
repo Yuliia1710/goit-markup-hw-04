@@ -43,6 +43,8 @@ p {
 
 .section {
   padding: 94px 0;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .link,
@@ -301,7 +303,6 @@ p {
 
 .section-team {
   background-color: var(--secondary-bg-color);
-  padding-top: 0;
 }
 
 .section-team-list {
@@ -535,6 +536,10 @@ p {
 
 .page-footer .container {
   display: flex;
+}
+
+.footer-icons {
+  padding-top: 12px;
 }
 
 .icon-link:hover .social-icon,
