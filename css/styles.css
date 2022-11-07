@@ -43,8 +43,6 @@ p {
 
 .section {
   padding: 94px 0;
-  max-width: 1600px;
-  margin: 0 auto;
 }
 
 .link,
@@ -171,6 +169,9 @@ p {
 /* Hero */
 
 .hero.centered {
+  max-width: 1600px;
+  margin: 0 auto;
+
   background-color: var(--tertiary-bg-color);
   text-align: center;
   padding: 200px 0;
